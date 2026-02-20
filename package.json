@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --watch app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch app.ts",
+    "start": "tsx app.ts"
   },
   "repository": {
     "type": "git",
@@ -14,7 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "",
   "bugs": {
     "url": "https://github.com/ThiagoPintodev2/pomodoro-backend/issues"
   },
